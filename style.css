@@ -1,0 +1,80 @@
+/* === Overall Page Styling === */
+body {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8f4f8 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Title */
+.title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%) !important;
+    color: white;
+    padding-top: 30px;
+}
+
+.sidebar-title {
+    color: #f1c40f;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stSelectbox label, .stNumberInput label, .stDateInput label {
+    color: #ecf0f1 !important;
+    font-weight: 600;
+}
+
+/* Prediction Card */
+.result-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px 40px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 30px auto;
+    transition: transform 0.3s ease;
+}
+
+.result-card:hover {
+    transform: scale(1.02);
+}
+
+.result-title {
+    color: #2980b9;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 2em;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Info Box */
+.stAlert {
+    border-radius: 10px !important;
+}
