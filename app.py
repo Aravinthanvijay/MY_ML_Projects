@@ -161,5 +161,5 @@ st.markdown("</div>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 st.info("ℹ️ Date is restricted between **2015-08-01** and **2015-09-17** (Rossmann test period).")
 
-import joblib
+
 joblib.dump(rf_model, "model_compressed.pkl", compress=3)
